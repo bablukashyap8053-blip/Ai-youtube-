@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Group centered strictly within 66dp safe zone (canvas 108dp, center 54, 54) -->
+    <!-- Large primary AI Star -->
+    <path
+        android:pathData="M54,26 C54,38 46,46 34,54 C46,62 54,70 54,82 C54,70 62,62 74,54 C62,46 54,38 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="26"
+                android:endX="74"
+                android:endY="82"
+                android:type="linear">
+                <item android:color="#00F0FF" android:offset="0.0" />
+                <item android:color="#7A4DFF" android:offset="0.5" />
+                <item android:color="#FF4DB8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner glowing core -->
+    <path
+        android:pathData="M54,38 C54,46 50,50 42,54 C50,58 54,62 54,70 C54,62 58,58 66,54 C58,50 54,46 54,38 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Secondary top right AI Sparkle -->
+    <path
+        android:pathData="M72,30 C72,36 68,40 62,44 C68,48 72,52 72,58 C72,52 76,48 82,44 C76,40 72,36 72,30 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62"
+                android:startY="30"
+                android:endX="82"
+                android:endY="58"
+                android:type="linear">
+                <item android:color="#FFE600" android:offset="0.0" />
+                <item android:color="#FF5900" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Secondary mini spark bottom left -->
+    <path
+        android:pathData="M38,62 C38,66 35,69 31,72 C35,75 38,78 38,82 C38,78 41,75 45,72 C41,69 38,66 38,62 Z"
+        android:fillColor="#00F0FF" />
+</vector>

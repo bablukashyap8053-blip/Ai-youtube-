@@ -1,0 +1,6 @@
+{
+  "name": "AI Studio",
+  "description": "All-in-one AI Assistant with Chat, Voice, Image & Video Studio, 2D/3D Animations, History, and Profile",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
